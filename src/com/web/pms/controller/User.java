@@ -43,6 +43,7 @@ public class User extends HttpServlet
 			request.getSession(false).invalidate();
 			response.sendRedirect("login.jsp");	
 		}	
+//temp code
 	}
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
